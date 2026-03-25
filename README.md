@@ -1,5 +1,8 @@
 # Обход блокировок
 
+Скачивать по ссылки: <br />
+https://forexample-u.github.io/all-obxod-ds-zapret-proxy-gpt-ru/index.html
+
 Обход:
 1. telegram
 2. chat gpt
