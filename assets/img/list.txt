@@ -1,0 +1,6 @@
+[
+  "https://github.com/Flowseal/zapret-discord-youtube/releases/download/1.9.7/zapret-discord-youtube-1.9.7.zip",
+  "https://github.com/Flowseal/tg-ws-proxy/releases/download/v1.2.1/TgWsProxy_windows.exe",
+  "https://peerphp.vercel.app/peer/211010c5-4d96-4cf1-ab81-fc628edca1b7.zip",
+  "https://peerphp.vercel.app/peer/d334379d-2026-47f3-a6a5-28dbd6e88c8a.zip"
+]
