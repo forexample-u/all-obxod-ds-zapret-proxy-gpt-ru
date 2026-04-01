@@ -1,7 +1,5 @@
 import urllib.request
 import urllib.error
-import json
-from typing import Optional, Dict, Any
 from pathlib import Path
 import sys
 import os
