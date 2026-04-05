@@ -1,10 +1,10 @@
 # Обход блокировок
 
 Скачивать по ссылки: <br />
-https://forexample-u.github.io/all-obxod-ds-zapret-proxy-gpt-ru/index.html
+https://obxod.neocities.org
 
 Или скачивать по этой ссылки: <br />
-https://obxod.neocities.org
+https://forexample-u.github.io/all-obxod-ds-zapret-proxy-gpt-ru/index.html
 
 Обход:
 1. telegram
